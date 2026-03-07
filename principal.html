@@ -1,35 +1,56 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Principal's Message - Nuriya Islamic SHS</title>
+    <meta name="description" content="Read messages from the principal and leadership team of Nuriya Islamic Senior High School.">
+    <title>Leadership Messages | Nuriya Islamic Senior High School</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
+    <div class="top-bar">
+        <div class="container top-bar-inner">
+            <div class="top-bar-links">
+                <a href="mailto:info@nuriyaislamicshs.edu.gh"><i class="fas fa-envelope"></i><span>info@nuriyaislamicshs.edu.gh</span></a>
+                <a href="tel:+233200000000"><i class="fas fa-phone"></i><span>+233 20 000 0000</span></a>
+            </div>
+            <div class="top-bar-actions">
+                <a href="calendar.html"><i class="fas fa-calendar-alt"></i><span>Academic Calendar</span></a>
+                <a href="how-to-apply.html" class="portal-btn">Admissions Guide</a>
+            </div>
+        </div>
+    </div>
+
     <header class="header">
         <div class="container">
-            <div class="logo">
-                <img src="img/nuriyashslogo.png" alt="Nuriya Islamic SHS Logo" style="height:60px;width:60px;">
+            <a class="logo" href="index.html">
+                <img src="img/nuriyashslogo.png" alt="Nuriya Islamic Senior High School logo">
                 <div class="logo-text">
                     <h1>Nuriya Islamic Senior High School</h1>
-                    <span>Excellence in Islamic Education</span>
+                    <span>Faith, Scholarship, Service</span>
                 </div>
-            </div>
-            <nav class="nav-menu">
+            </a>
+
+            <button class="mobile-menu" type="button" aria-expanded="false" aria-controls="site-navigation">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav class="nav-menu" id="site-navigation" aria-label="Primary">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li class="dropdown">
-                        <a href="#" class="active">About Us <i class="fas fa-chevron-down"></i></a>
+                        <button class="nav-trigger active" type="button" aria-expanded="false">About Us <i class="fas fa-chevron-down"></i></button>
                         <ul class="dropdown-content">
                             <li><a href="history.html">History</a></li>
-                            <li><a href="vision.html">Vision & Mission</a></li>
-                            <li><a href="principal.html" class="active">Principal's Message</a></li>
+                            <li><a href="vision.html">Vision &amp; Mission</a></li>
+                            <li><a href="principal.html" class="active">Leadership Messages</a></li>
                             <li><a href="administration.html">Administration</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#">Academics <i class="fas fa-chevron-down"></i></a>
+                        <button class="nav-trigger" type="button" aria-expanded="false">Academics <i class="fas fa-chevron-down"></i></button>
                         <ul class="dropdown-content">
                             <li><a href="departments.html">Departments</a></li>
                             <li><a href="programmes.html">Programmes</a></li>
@@ -38,270 +59,221 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#">Admissions <i class="fas fa-chevron-down"></i></a>
+                        <button class="nav-trigger" type="button" aria-expanded="false">Admissions <i class="fas fa-chevron-down"></i></button>
                         <ul class="dropdown-content">
                             <li><a href="requirements.html">Entry Requirements</a></li>
-                            <li><a href="how-to-apply.html">How to Apply</a></li>
+                            <li><a href="how-to-apply.html">How To Apply</a></li>
                             <li><a href="fees.html">Fees Schedule</a></li>
                         </ul>
                     </li>
-                    <li><a href="#news">News & Events</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="index.html#news">News &amp; Events</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
                 </ul>
-                <a href="#apply" class="apply-btn">Apply Now</a>
+                <a href="how-to-apply.html" class="btn apply-btn">Apply Now</a>
             </nav>
-            <div class="mobile-menu">
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-about">
-                    <div class="footer-logo">
-                        <img src="img/nuriyashslogo.png" alt="Nuriya Islamic SHS Logo">
-                        <h3>Nuriya Islamic SHS</h3>
-                    </div>
-                    <p>Providing quality education with Islamic values since 2019.</p>
-                    <div class="footer-social">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
-                <div class="footer-links">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#academics">Academics</a></li>
-                        <li><a href="#admissions">Admissions</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">
-                    <h4>Departments</h4>
-                    <ul>
-                        <li><a href="#">Islamic Studies</a></li>
-                        <li><a href="#">Science</a></li>
-                        <li><a href="#">Business</a></li>
-                        <li><a href="#">General Arts</a></li>
-                        <li><a href="#">Visual Arts</a></li>
-                    </ul>
-                </div>
-                <div class="footer-newsletter">
-                    <h4>Newsletter</h4>
-                    <p>Subscribe to get the latest updates.</p>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Your email">
-                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
-                    </form>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Nuriya Islamic Senior High School. All Rights Reserved.</p>
-                <p>Designed with for Excellence in Islamic Education</p>
-            </div>
         </div>
-    </footer>
-    <script src="script.js"></script>
-</body>
-</html>
     </header>
+
     <main>
-        <section class="subpage">
-            <h2>Principal's Message</h2>
-            <p>This is the principal's message page for Nuriya Islamic Senior High School.</p>
-        </section>
-        <!-- Proprietor's Message -->
-        <section class="principal-section" id="proprietor">
+        <section class="subpage-hero">
             <div class="container">
-                <div class="principal-content">
-                    <div class="principal-image">
-                        <img src="https://via.placeholder.com/300x350/010b63/ffffff?text=Proprietor" alt="Proprietor">
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Leadership Messages</span>
+                </div>
+                <h1>Leadership voices focused on standards, care, and student growth</h1>
+                <p>The school's leadership team works from a shared belief: students do best when expectations are clear, support is dependable, and values are lived consistently.</p>
+            </div>
+        </section>
+
+        <section class="principal-section">
+            <div class="container principal-content">
+                <div class="profile-visual">
+                    <div class="avatar">PM</div>
+                    <h3>Message from the principal</h3>
+                    <p>Nuriya Islamic Senior High School exists to raise learners who are serious about knowledge, grounded in faith, and prepared to serve society responsibly.</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i><span>High expectations in both conduct and academics</span></li>
+                        <li><i class="fas fa-check-circle"></i><span>Close collaboration between staff, students, and parents</span></li>
+                        <li><i class="fas fa-check-circle"></i><span>Practical preparation for tertiary study and adulthood</span></li>
+                    </ul>
+                </div>
+
+                <div class="content-card">
+                    <div class="section-header">
+                        <h2>Principal's charge to students and families</h2>
+                        <p>The principal's office sets the tone for discipline, academic seriousness, and the kind of support systems students should expect on campus.</p>
                     </div>
-                    <div class="principal-text">
-                        <h2>Proprietor's Message</h2>
-                        <h3>Message from the Proprietor</h3>
-                        <p>Welcome to Nuriya Islamic Senior High School. As the proprietor, I am committed to providing a nurturing environment where students can excel academically and spiritually. Our school stands for excellence, discipline, and faith.</p>
-                        <a href="#" class="btn btn-primary" id="proprietor-btn" onclick="showPopup('proprietor-message','proprietor-btn');return false;">Read More</a>
-                        <div id="proprietor-message" class="popup-message" style="display:none;">
-                            <div class="popup-content">
-                                <span class="close-btn" onclick="closePopup('proprietor-message','proprietor-btn')">&times;</span>
-                                <div class="popup-scroll">
-                                    <p>As the proprietor, I am proud of the achievements of our students and staff. Our vision is to create an environment where every child feels valued and empowered to reach their full potential. We are committed to continuous improvement and innovation in education.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <p>We want every student to understand that growth requires both opportunity and effort. The school provides teaching, supervision, mentoring, and structure. Students are expected to respond with discipline, honesty, and a willingness to improve continuously.</p>
+                    <p>Families are partners in this work. When home and school expectations align, students mature faster, learn more deeply, and become more dependable in character. That is the kind of graduate Nuriya aims to produce.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Assistant Headmaster's Message -->
-        <section class="principal-section" id="assistant-headmaster">
+        <section class="content-section alt">
             <div class="container">
-                <div class="principal-content">
-                    <div class="principal-image">
-                        <img src="https://via.placeholder.com/300x350/010b63/ffffff?text=Assistant+Headmaster" alt="Assistant Headmaster">
-                    </div>
-                    <div class="principal-text">
-                        <h2>Assistant Headmaster's Message</h2>
-                        <h3>Message from the Assistant Headmaster</h3>
-                        <p>Our students are our pride. At Nuriya Islamic SHS, we strive to foster a culture of learning, respect, and growth. I encourage all students to take advantage of the opportunities provided and aim for greatness.</p>
-                        <a href="#" class="btn btn-primary" id="assistant-headmaster-btn" onclick="showPopup('assistant-headmaster-message','assistant-headmaster-btn');return false;">Read More</a>
-                        <div id="assistant-headmaster-message" class="popup-message" style="display:none;">
-                            <div class="popup-content">
-                                <span class="close-btn" onclick="closePopup('assistant-headmaster-message','assistant-headmaster-btn')">&times;</span>
-                                <div class="popup-scroll">
-                                    <p>Our role is to support students in their academic and personal growth. We foster a culture of respect, responsibility, and resilience. Every student is encouraged to participate actively in school life and make the most of the opportunities available.</p>
-                                </div>
+                <div class="section-header centered">
+                    <h2>Messages from the wider leadership team</h2>
+                    <p>Each leadership office contributes to the school experience in a different way, but all share the same commitment to faith, order, and student progress.</p>
+                </div>
+                <div class="profile-grid">
+                    <article class="profile-card">
+                        <div class="profile-header">
+                            <div class="profile-avatar">PR</div>
+                            <div>
+                                <h3>Proprietor</h3>
+                                <span>Vision stewardship and institutional growth</span>
                             </div>
                         </div>
-                    </div>
+                        <p>The proprietor's focus is to preserve the founding purpose of the school while ensuring that staffing, systems, and long-term development remain aligned with that purpose.</p>
+                        <div class="profile-focus">
+                            <span>School identity</span>
+                            <span>Growth planning</span>
+                            <span>Community trust</span>
+                        </div>
+                    </article>
+
+                    <article class="profile-card">
+                        <div class="profile-header">
+                            <div class="profile-avatar">AH</div>
+                            <div>
+                                <h3>Assistant Headmaster</h3>
+                                <span>Academic coordination and daily school flow</span>
+                            </div>
+                        </div>
+                        <p>This office helps to maintain classroom standards, teacher coordination, internal supervision, and a school day that runs in an orderly and academically productive way.</p>
+                        <div class="profile-focus">
+                            <span>Instruction</span>
+                            <span>Monitoring</span>
+                            <span>Student follow-up</span>
+                        </div>
+                    </article>
+
+                    <article class="profile-card">
+                        <div class="profile-header">
+                            <div class="profile-avatar">SH</div>
+                            <div>
+                                <h3>Senior Housemaster</h3>
+                                <span>Boarding discipline and welfare for boys</span>
+                            </div>
+                        </div>
+                        <p>Boarding life must be safe, orderly, and supportive. The house office helps students build routine, self-management, and respect for shared living standards.</p>
+                        <div class="profile-focus">
+                            <span>Boarding routine</span>
+                            <span>Mentoring</span>
+                            <span>Parent communication</span>
+                        </div>
+                    </article>
+
+                    <article class="profile-card">
+                        <div class="profile-header">
+                            <div class="profile-avatar">SM</div>
+                            <div>
+                                <h3>Senior Housemistress</h3>
+                                <span>Pastoral care and welfare for girls</span>
+                            </div>
+                        </div>
+                        <p>The girls' welfare office emphasizes safety, dignity, confidence, and the support needed for students to remain focused and healthy throughout the term.</p>
+                        <div class="profile-focus">
+                            <span>Well-being</span>
+                            <span>Guidance</span>
+                            <span>Support systems</span>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>
 
-        <!-- Senior Housemaster's Message -->
-        <section class="principal-section" id="senior-housemaster">
+        <section class="content-section">
             <div class="container">
-                <div class="principal-content">
-                    <div class="principal-image">
-                        <img src="https://via.placeholder.com/300x350/010b63/ffffff?text=Housemaster" alt="Senior Housemaster">
-                    </div>
-                    <div class="principal-text">
-                        <h2>Senior Housemaster's Message</h2>
-                        <h3>Message from the Senior Housemaster</h3>
-                        <p>Discipline and unity are the pillars of our boarding system. As Senior Housemaster, I ensure that every student feels safe, respected, and supported in their academic and personal journey.</p>
-                        <a href="#" class="btn btn-primary" id="housemaster-btn" onclick="showPopup('housemaster-message','housemaster-btn');return false;">Read More</a>
-                        <div id="housemaster-message" class="popup-message" style="display:none;">
-                            <div class="popup-content">
-                                <span class="close-btn" onclick="closePopup('housemaster-message','housemaster-btn')">&times;</span>
-                                <div class="popup-scroll">
-                                    <p>Our boarding system is designed to promote discipline, camaraderie, and personal development. We ensure that every student feels safe and supported, and we work closely with parents to address any concerns.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="info-grid">
+                    <article class="info-card">
+                        <i class="fas fa-scale-balanced"></i>
+                        <h3>Leadership principle one</h3>
+                        <p>Discipline is treated as a framework for growth, not simply punishment. Clear routines help students focus and mature.</p>
+                    </article>
+                    <article class="info-card">
+                        <i class="fas fa-chalkboard-user"></i>
+                        <h3>Leadership principle two</h3>
+                        <p>Academic performance is monitored closely so that support can be offered early, before small struggles become bigger problems.</p>
+                    </article>
+                    <article class="info-card">
+                        <i class="fas fa-handshake-angle"></i>
+                        <h3>Leadership principle three</h3>
+                        <p>Parents deserve timely, respectful communication because the strongest student outcomes are produced through partnership.</p>
+                    </article>
                 </div>
             </div>
         </section>
 
-        <!-- Senior House Mistress's Message -->
-        <section class="principal-section" id="senior-housemistress">
+        <section class="content-section compact">
             <div class="container">
-                <div class="principal-content">
-                    <div class="principal-image">
-                        <img src="https://via.placeholder.com/300x350/010b63/ffffff?text=Housemistress" alt="Senior House Mistress">
-                    </div>
-                    <div class="principal-text">
-                        <h2>Senior House Mistress's Message</h2>
-                        <h3>Message from the Senior House Mistress</h3>
-                        <p>Our female students are empowered to achieve their dreams in a safe and supportive environment. I am dedicated to their well-being, growth, and success at Nuriya Islamic SHS.</p>
-                        <a href="#" class="btn btn-primary" id="housemistress-btn" onclick="showPopup('housemistress-message','housemistress-btn');return false;">Read More</a>
-                        <div id="housemistress-message" class="popup-message" style="display:none;">
-                            <div class="popup-content">
-                                <span class="close-btn" onclick="closePopup('housemistress-message','housemistress-btn')">&times;</span>
-                                <div class="popup-scroll">
-                                    <p>Our female students are encouraged to pursue their ambitions and develop leadership skills. We provide guidance and support to help them overcome challenges and achieve their goals.</p>
-                                </div>
-                            </div>
-                        </div>
+                <div class="cta-banner">
+                    <h2>Understand how the school is organized</h2>
+                    <p>Review the administrative structure that supports academics, admissions, welfare, and everyday school operations.</p>
+                    <div class="hero-actions">
+                        <a href="administration.html" class="btn btn-light">Administration</a>
+                        <a href="history.html" class="btn btn-outline">School History</a>
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
-     <!-- Principal's Message -->
-    <section class="principal-section" id="principal">
+    <footer class="footer">
         <div class="container">
-            <div class="principal-content">
-                <div class="principal-image">
-                    <img src="https://via.placeholder.com/300x350/0a04c7/ffffff?text=Principal" alt="Principal">
-                </div>
-                <div class="principal-text">
-                    <h2>Principal's Message</h2>
-                    <h3>Welcome to Nuriya Islamic Senior High School</h3>
-                    <p>Nuriya Islamic Senior High School was established with a vision to provide quality education integrated with Islamic values. Our mission is to nurture academically excellent, morally upright, and spiritually grounded individuals who will become leaders in their communities and beyond.</p>
-                    <p>At Nuriya Islamic SHS, we believe in the harmony of religious knowledge and modern education. Our dedicated staff works tirelessly to ensure that every student receives the best possible education while strengthening their faith and character.</p>
-                    <a href="#" class="btn btn-primary" id="principal-btn" onclick="showPopup('principal-message','principal-btn');return false;">Read More</a>
-                    <div id="principal-message" class="popup-message" style="display:none;">
-                        <div class="popup-content">
-                            <span class="close-btn" onclick="closePopup('principal-message','principal-btn')">&times;</span>
-                            <div class="popup-scroll">
-                                <p>Our school is dedicated to providing a holistic education that blends academic excellence with Islamic values. We encourage all students to strive for greatness, uphold discipline, and embrace unity. Together, we build a brighter future for our community and nation.</p>
-                            </div>
-                        </div>
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <img src="img/nuriyashslogo.png" alt="Nuriya Islamic Senior High School logo">
+                        <h3>Nuriya Islamic SHS</h3>
                     </div>
+                    <p>Nuriya Islamic Senior High School has served families since 2015 by combining academic seriousness, Islamic values, and practical student support.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="history.html">Our History</a></li>
+                        <li><a href="vision.html">Vision &amp; Mission</a></li>
+                        <li><a href="principal.html">Leadership Messages</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="departments.html">Departments</a></li>
+                        <li><a href="library.html">Library</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Admissions</h4>
+                    <ul>
+                        <li><a href="requirements.html">Entry Requirements</a></li>
+                        <li><a href="how-to-apply.html">How To Apply</a></li>
+                        <li><a href="fees.html">Fees Schedule</a></li>
+                        <li><a href="calendar.html">Academic Calendar</a></li>
+                        <li><a href="index.html#contact">Contact Office</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Request A Call</h4>
+                    <p>Need guidance on admissions, fees, or boarding arrangements? Leave your email and the office will follow up.</p>
+                    <form data-success-message="Thank you. The school office has received your callback request.">
+                        <label class="sr-only" for="principal-footer-email">Email address</label>
+                        <input id="principal-footer-email" type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-light">Request Callback</button>
+                    </form>
+                    <p class="form-status" data-form-status></p>
                 </div>
             </div>
+            <div class="footer-bottom">
+                <p>&copy; <span data-current-year>2026</span> Nuriya Islamic Senior High School. All rights reserved.</p>
+                <p>Tamale, Northern Region, Ghana | Faith, scholarship, service.</p>
+            </div>
         </div>
-    </section>
-
-    <footer class="footer">
-                <style>
-                .popup-message {
-                    position: fixed;
-                    top: 0;
-                    left: 0;
-                    width: 100vw;
-                    height: 100vh;
-                    background: rgba(0,0,0,0.5);
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    z-index: 9999;
-                }
-                .popup-content {
-                    background: #fff;
-                    border-radius: 8px;
-                    width: 90vw;
-                    max-width: 500px;
-                    max-height: 70vh;
-                    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-                    position: relative;
-                    display: flex;
-                    flex-direction: column;
-                }
-                .popup-scroll {
-                    overflow-y: auto;
-                    padding: 24px;
-                    flex: 1;
-                    max-height: 60vh;
-                }
-                .close-btn {
-                    position: absolute;
-                    top: 10px;
-                    right: 18px;
-                    font-size: 2rem;
-                    color: #010b63;
-                    cursor: pointer;
-                    font-weight: bold;
-                }
-                </style>
-                <script>
-                function showPopup(msgId, btnId) {
-                    document.getElementById(msgId).style.display = 'flex';
-                    document.getElementById(btnId).style.display = 'none';
-                }
-                function closePopup(msgId, btnId) {
-                    document.getElementById(msgId).style.display = 'none';
-                    document.getElementById(btnId).style.display = 'inline-block';
-                }
-                </script>
-            <script>
-            function toggleMessage(id) {
-                var el = document.getElementById(id);
-                if (el.style.display === "none") {
-                    el.style.display = "block";
-                } else {
-                    el.style.display = "none";
-                }
-            }
-            </script>
-        <!-- ...existing code... -->
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
+
+
